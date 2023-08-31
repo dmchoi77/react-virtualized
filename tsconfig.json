@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "composite": true,
+    "incremental": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts",
+    "./src/**/*.json",
+    "./package.json"
+  ]
+}
